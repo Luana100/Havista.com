@@ -1,0 +1,38 @@
+.logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .imagem {
+    width: 100%; /* Ajuste a imagem para se adaptar à largura do seu contêiner */
+    max-width: 200px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px; /* Tamanho da fonte reduzido para telas menores */
+    color: black;
+  }
+  
+  table {
+    margin: 0 auto; /* Centraliza a tabela horizontalmente */
+    border-collapse: collapse;
+    width: 100%; /* Ajusta a largura da tabela para ocupar o espaço disponível */
+    max-width: 800px; /* Limita a largura máxima da tabela */
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 10px; /* Espaçamento interno para os elementos da tabela */
+  }
+
+  #panel, #flip {
+    padding: 5px;
+    text-align: center;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }

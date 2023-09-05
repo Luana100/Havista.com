@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="cartao.js"></script>
+    <script src="pagamento.js"></script>
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title></title>
+    
+</head>
+<body>
+    <div class="contaner">
+        
+        <h1>Carrinho de compras</h1>
+
+<table>
+    
+    
+        <tr>
+            <th>Produto</th>
+            <th>Descrição</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Preço total</th>
+
+        </tr>
+        <tr>
+             <td><img src="shampoo-.png" class="imagem"></td>
+             <td>shampoo</td>
+             <td>R$40,00</td>
+             <td><input type="number" id="produto1" name="numero" min="0" max="10000" onclick="totalProduto()"></td>
+            <td>R$<div id="totalP1"></div></td>
+        </tr>
+      <tr>
+             <td><img src="PerfumeMasculino.png" class="imagem"></td>
+             <td>PerfumeFeminino</td>
+             <td>R$250,00</td>
+             <td><input type="number" id="produto2" name="numero" min="0" max="10000" onclick="totalProduto()"></td>
+             <td>R$<div id="totalP2"></div></td>
+        </tr>   
+        <tr>
+            <td><img src="dolce.webp" class="imagem"></td>
+            <td>PerfumeFeminino</td>
+            <td>R$300,00</td>
+            <td><input type="number" id="produto3" name="numero" min="0" max="10000" onclick="totalProduto()"></td>
+            <td>R$<div id="totalP3"></div></td>
+       </tr>
+        
+       <tr>
+        <td></td>
+        <td></td>
+        <td>Valor Total da compra:</td>
+        <td> R$<div type="text" id="Vtotal"></td>
+        <td><button onclick="window.location.href = 'outra_pagina.html'">Forma de Pagamento</button></td>
+       </tr>
+     </td>
+       </table>
+
+        </div>
+        
+</body>
+  </form>
+</html>
