@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="trabalho.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular trabalho</title>
+</head>
+
+<body>
+    <div class="container">
+        <center>
+        <div class="podre">
+        <form action="calcular.php" method="post">
+        <table> 
+
+            <h2>Calcule o Salario</h2>
+            <br>
+
+                <tr>
+                    <td><label for="uname">Seu Nome:</label>
+                        <input type="text" class="form-control" name="nome" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Valor da Hora trabalhada:</label>
+                        <input type="number" class="form-control" name="valor" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Quantidade de Horas Trabalhadas no Mês:</label>
+                        <input type="number" class="form-control" name="hora" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button type="submit" class="btn btn-outline-primary" onclick="trabalho()">Calcular</button>
+                    </td>
+                </tr>
+        </table>
+    </form>
+    </div>
+</center>
+
+    </div>
+</body>
+
+</html>
